@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <img :src="bgImg" alt="" class="bg-img">
+        <img :src="windowSize > 768 ? bgImg.big : bgImg.mb" alt="" class="bg-img">
     </section>
 </template>
 
@@ -25,9 +25,16 @@ export default {
     },
     data() {
         return {
-            bgImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcatalog-bg.png?alt=media&token=c974e356-c53f-434e-afc8-c845832c6b17',
+            bgImg: {
+                big: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcatalog-bg.png?alt=media&token=c974e356-c53f-434e-afc8-c845832c6b17',
+                mb: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcatalog-mb-bg.png?alt=media&token=61d65b16-8de5-4a7e-a433-ca5d27766f81'
+            },
             ctStore: catalogStore(),
+            windowSize: window.innerWidth,
         }
+    },
+    mounted() {
+        window.addEventListener('resize', () => this.windowSize = window.innerWidth)
     }
 }
 

@@ -1,8 +1,8 @@
 <template>
     <div class="swiper-slider-box">
-        <swiper :navigation="{prevEl:'.swiper-btn.prev', nextEl:'.swiper-btn.next'}" :spaceBetween="35" :modules="modules" class="header-swiper">
+        <swiper :navigation="{prevEl:'.swiper-btn.prev', nextEl:'.swiper-btn.next'}" :spaceBetween="35" :centeredSlides="true" :modules="modules" class="header-swiper">
             <swiper-slide class="header-swiper-slide" v-for="(img, idx) in sliderImages" :key="idx">
-                <img :src="img.img" alt="" class="swiper-img">
+                <img :src="windowSize > 768 ? img.img : img.mbImg" alt="" class="swiper-img">
                 <a :href="$t('header.sliderBtn.url')" v-if="windowSize > 768" class="contact-btn blue-btn">{{ $t('header.sliderBtn.name') }}</a>
             </swiper-slide>
         </swiper>
@@ -31,19 +31,23 @@ export default {
             modules: [Navigation],
             sliderImages: [
                 {
-                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%201.png?alt=media&token=91d04d58-8d38-464c-a756-ee67972014ab'
+                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%201.png?alt=media&token=91d04d58-8d38-464c-a756-ee67972014ab',
+                    mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-1.png?alt=media&token=e5a3d512-a11e-4351-93a0-2df04011a357'
                 },
                 {
-                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%202.png?alt=media&token=2fd180db-f714-44a3-947b-55044eec9254'
+                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%202.png?alt=media&token=2fd180db-f714-44a3-947b-55044eec9254',
+                    mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-2.png?alt=media&token=b8fec8c6-03e8-4e90-8907-edd74c3d5952'
                 },
                 {
-                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%203.png?alt=media&token=c4146b0a-af51-459c-9766-e458926b5597'
+                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%203.png?alt=media&token=c4146b0a-af51-459c-9766-e458926b5597',
+                    mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-3.png?alt=media&token=6e34c8f0-5a7a-4022-8341-29a48b3e1027'
                 },
                 {
-                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%204.png?alt=media&token=93aae127-0670-49ca-af96-4e103cc588dd'
+                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%204.png?alt=media&token=93aae127-0670-49ca-af96-4e103cc588dd',
+                    mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-4.png?alt=media&token=34196e06-f109-41a0-a336-cf3f1d4ac2f4'
                 }
             ],
-            windowSize: window.innerWidth
+            windowSize: window.innerWidth,
         }
     },
     mounted() {
@@ -131,6 +135,14 @@ export default {
 
         &.next {
             right: 2%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .header-swiper {
+        &-slide {
+            max-width: 400px !important;
         }
     }
 }

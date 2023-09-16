@@ -5,7 +5,7 @@
 
             <div class="contact__info">
                 <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7745.026323320958!2d69.01174038547474!3d40.910982726148994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae75ac5fbd77ab%3A0x4a1e178f88f8ad36!2z0JrRg9C50LjRh9C40YDRh9C40LrRgdC60LjQuSDRgNCw0LnQvtC9LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e1!3m2!1sru!2s!4v1694810179282!5m2!1sru!2s" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ifr-map"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7745.026323320958!2d69.01174038547474!3d40.910982726148994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae75ac5fbd77ab%3A0x4a1e178f88f8ad36!2z0JrRg9C50LjRh9C40YDRh9C40LrRgdC60LjQuSDRgNCw0LnQvtC9LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e1!3m2!1sru!2s!4v1694810179282!5m2!1sru!2s" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" class="ifr-map"></iframe>
                 </div>
 
                 <div class="contact-links">
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <img :src="contactBgImg" alt="" class="contact-bg">
+    <img :src="windowSize > 768 ? contactBgImg.big : contactBgImg.mb" alt="" class="contact-bg">
   </section>
 </template>
 
@@ -67,8 +67,15 @@ export default {
                     url: 'https://www.messenger.com/'
                 }
             ],
-            contactBgImg: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FContactSection%2Fcontact-bg.png?alt=media&token=54985e95-23d7-4e91-8863-ae511bc44998"
+            contactBgImg: {
+                big: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FContactSection%2Fcontact-bg.png?alt=media&token=54985e95-23d7-4e91-8863-ae511bc44998",
+                mb: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FContactSection%2Fcontact-mb-bg.png?alt=media&token=f4aa04f3-0444-4187-98e8-416629e66640'
+            },
+            windowSize: window.innerWidth,
         }
+    },
+    mounted() {
+        window.addEventListener('resize', () => this.windowSize = window.innerWidth)
     }
 }
 
@@ -163,7 +170,7 @@ export default {
 
 @media (max-width: 1024px) {
     .contact__section {
-        padding: 170px 0 100px !important;
+        padding: 100px 0 100px !important;
     }
 
     .contact-links {

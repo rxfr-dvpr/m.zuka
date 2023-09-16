@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <img :src="bgIMG" alt="" class="about-bg-img">
+    <img :src="windowSize > 768 ? bgIMG.big : bgIMG.mb" alt="" class="about-bg-img">
   </section>
 </template>
 
@@ -28,9 +28,16 @@ export default {
     name: 'About Us',
     data() {
         return {
-            bgIMG: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-bg.png?alt=media&token=e4d9ff9e-4699-4088-9248-abda32912727',
-            contentImg: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-img.png?alt=media&token=614a94ae-c06d-4efd-b033-7a53259c200b"
+            bgIMG: {
+                big: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-bg.png?alt=media&token=e4d9ff9e-4699-4088-9248-abda32912727',
+                mb: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fmb-about-bg.png?alt=media&token=5c8ae86b-547a-4942-acd7-77271b7ee568'
+            },
+            contentImg: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-img.png?alt=media&token=614a94ae-c06d-4efd-b033-7a53259c200b",
+            windowSize: window.innerWidth,
         }
+    },
+    mounted() {
+        window.addEventListener('resize', () => this.windowSize = window.innerWidth)
     }
 }
 
