@@ -1,0 +1,220 @@
+{
+    "nav": {
+        "links": [
+            {
+                "name": "о нас",
+                "url": "#about"
+            },
+            {
+                "name": "каталог",
+                "url": "#catalog"
+            },
+            {
+                "name": "связаться",
+                "url": "#contact-us"
+            }
+        ],
+        "langs": [
+            {
+                "name": "ru",
+                "active": true
+            },
+            {
+                "name": "en",
+                "active": false
+            }
+        ],
+        "btn": {
+            "icon": "<i class='fas fa-phone-alt'></i>",
+            "name": "+998 90 906 23 25",
+            "url": "tel:+998909062325"
+        }
+    },
+    "header": {
+        "sliderBtn": {
+            "name": "связаться",
+            "url": "#contact-us"
+        },
+        "infoSection": [
+            {
+                "name": "продукты",
+                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderInfo%2Finfo-1.png?alt=media&token=885ab337-8ecc-41ca-9e02-9b0adf63c1aa",
+                "num": 50
+            },
+            {
+                "name": "клиенты",
+                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderInfo%2Finfo-2.png?alt=media&token=09d29ddb-ccb5-4e75-9acf-3886dcdad309",
+                "num": 60
+            },
+            {
+                "name": "опыт",
+                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderInfo%2Finfo-3.png?alt=media&token=ae5de0f4-3804-4bed-b117-7723e3a77a50",
+                "num": 2,
+                "type": "лет"
+            },
+            {
+                "name": "рабочие",
+                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderInfo%2Finfo-4.png?alt=media&token=4e545318-cbe7-4cb9-90db-86149919169d",
+                "num": 30
+            }
+        ]
+    },
+    "main": {
+        "catalog": {
+            "title": "каталог",
+            "cards": [
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89",
+                    "name": "летнее платье",
+                    "txt": "Размер - от 2-х до 5-6-ти лет, Сезон - лето, Ткань - хлопок, воздухопроницаемая",
+                    "descr": {
+                        "size": { "type": "размер", "txt": "от 2-х до 5-6-ти лет"},
+                        "season": { "type": "сезон", "txt": "лето"},
+                        "fabric": { "type": "ткань", "txt": "хлопок, воздухопроницаемая"}
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-021.jpg?alt=media&token=bccc7328-9367-4835-9f21-dbb71b718ab0" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-022.jpg?alt=media&token=b23bde2d-f53a-4f9f-88e9-b15b12b9f223" 
+                        }
+                    ]
+                },
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2",
+                    "name": "летнее шифоновое платье",
+                    "txt": "Размер - от 2-х до 5-6-ти лет, Сезон - лето, Ткань - Часть юбки, в тканькоторой вшита шифоноваяподкладка, украшена 3-хэтажной закруткой, имеетпояс на талии и молнию сзадней стороны",
+                    "descr": {
+                        "size": { "type": "размер", "txt": "от 2-х до 5-6-ти лет"},
+                        "season": { "type": "сезон", "txt": "лето"},
+                        "fabric": { "type": "ткань", "txt": "Часть юбки, в тканькоторой вшита шифоноваяподкладка, украшена 3-хэтажной закруткой, имеетпояс на талии и молнию сзадней стороны" }
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-024.jpg?alt=media&token=2c0df103-eaa6-4bcf-9ab4-d613dbd7fee7" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-025.jpg?alt=media&token=8498f081-e13d-453b-acd3-6b872c81ccd8" 
+                        }
+                    ]
+                },
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281",
+                    "name": "осеннее платье",
+                    "txt": "Размер - от 2-х лет до 6-ти лет для девочек, Сезон - осенняя, Ткань - микровиливет, с задней стороны есть молния",
+                    "descr": {
+                        "size": { "type": "размер", "txt": "от 2-х лет до 6-ти лет для девочек"},
+                        "season": { "type": "сезон", "txt": "осенняя"},
+                        "fabric": { "type": "ткань", "txt": "микровиливет, с задней стороны есть молния" }
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-011.jpg?alt=media&token=d32ac92b-1f26-443f-92aa-13b60c5ac325" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-018.jpg?alt=media&token=bd43c8c8-0595-4e6d-a709-dc7fb1d8fcf6" 
+                        }
+                    ]
+                },
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416",
+                    "name": "осеннее платье",
+                    "txt": "Размер - от 2-х до 5-ти лет, Сезон - для осени, Ткань - (полиэстер) частьворотника, которая крепилась кконцу рукава крджива, былаприкреплена к курдживе дляукрашения, в которойиспользовалась ткань бингалин, наспине есть замоги и пояс, которыепропускают воздух длякомфортного ношения",
+                    "descr": {
+                        "size":{ "type": "размер", "txt": "от 2-х до 5-ти лет" },
+                        "season": { "type": "сезон", "txt": "для осени"},
+                        "fabric": { "type": "ткань", "txt": "(полиэстер) частьворотника, которая крепилась кконцу рукава крджива, былаприкреплена к курдживе дляукрашения, в которойиспользовалась ткань бингалин, наспине есть замоги и пояс, которыепропускают воздух длякомфортного ношения" }
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-032.jpg?alt=media&token=f2642672-24c2-4ed1-9f88-e790d044f73f" 
+                        }
+                    ]
+                },
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39",
+                    "name": "тройка, Двойка",
+                    "txt": "Размер - 6-9 месяцев 9-12 месяцев 12-18 месяцев, Сезон - Осень, весна, Ткань - спереди есть молния, спереди нафутболке есть логотип, 4 разных цвета, 2 разныхизображения",
+                    "descr": {
+                        "size":{ "type": "размер", "txt": "6-9 месяцев 9-12 месяцев 12-18 месяцев" },
+                        "season": { "type": "сезон", "txt": "осень, весна"},
+                        "fabric": { "type": "ткань", "txt": "спереди есть молния, спереди нафутболке есть логотип, 4 разных цвета, 2 разныхизображения" }
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-017.jpg?alt=media&token=c232395c-42d1-4a94-a9a3-3b02e9174c3f" 
+                        }
+                    ]
+                },
+                {
+                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d",
+                    "name": "спортивная одежда для девочек",
+                    "txt": "Pазмер - от 9 до 12 лет, Сезон - Осень, весна, Ткань - трикотаж верхняя часть имеет закрытыйвырез с подолом и печатный принт на концерукава для украшения, к которому прикрепленарибана внизу, на запястье, удобная в носке рибанас оборками каштанового цвета.",
+                    "descr": {
+                        "size": { "type": "размер", "txt": "от 9 до 12 лет" },
+                        "season": { "type": "сезон", "txt": "осень, весна"},
+                        "fabric": { "type": "ткань", "txt": "трикотаж верхняя часть имеет закрытыйвырез с подолом и печатный принт на концерукава для украшения, к которому прикрепленарибана внизу, на запястье, удобная в носке рибанас оборками каштанового цвета." }
+                    },
+                    "images": [
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d" 
+                        },
+                        {
+                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-003.jpg?alt=media&token=6b1ea2c6-1422-462b-aba2-6e8baa50b3c1" 
+                        }
+                    ]
+                }
+            ],
+            "btnValue": "заказывать"
+        },
+        "about": {
+            "title": "о нас",
+            "content": {
+                "descr": {
+                    "subtitle": "наша команда",
+                    "title": "нас считают крупнейшей компанией на производственном рынке",
+                    "txt": "основанная 13 сентября 2021 года, фабрика выйдет на мощность по производству 5000 единиц в месяц, компания имеет 20 различных типов машин. Вид деятельности ООО «М.Зука Кидс» в основном производство качественной и разнообразной детской одежды. продукты. Преимущества сотрудничества с нами оценены постоянными клиентами. Мы всегда рады сотрудничеству и стремимся сделать наши отношения с Вами постоянными и взаимовыгодными."
+                }
+            }
+        },
+        "contact": {
+            "info": {
+                "title": "связаться с нами"
+            }
+        },
+        "form": {
+            "title": "форма обратной связи",
+            "nameInp": "имя*",
+            "emailInp": "электронная почта*",
+            "telInp": "ваш номер телефона*",
+            "msgInp": "комментарии*",
+            "btnV": "отправить"
+        }
+    },
+    "footer": {
+        "bottom": {
+            "cpTxt": "услуги лицензированы"
+        }
+    },
+    "error": {
+        "title": "404",
+        "msg": "Упс! Что-то пошло не так.",
+        "back": "Вернуться на главную страницу"
+    }
+}
