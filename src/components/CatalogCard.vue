@@ -266,6 +266,7 @@ export default {
 
         .descr {
             &-name {
+                max-width: 80%;
                 font-size: 24px;
                 font-weight: 700;
                 color: var(--main-blue);

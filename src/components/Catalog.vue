@@ -4,8 +4,18 @@
             <div class="row">
                 <h2 class="catalog-title all-title">{{ $t('main.catalog.title') }}</h2>
 
-                <div class="catalog__cards">
-                    <CatalogCard v-for="(card, idx) in $tm('main.catalog.cards')" :key="idx" :cardObj="card"/>
+                <div class="catalog__cards-box">
+                    <div class="catalog__cards" v-for="(cards, idx) in $tm('main.catalog.cards')" :key="idx" 
+                    v-show="prdActivePages[idx].active">
+                        <CatalogCard v-for="(card, idd) in cards" :key="idd" :cardObj="card"/>
+                    </div>
+                </div>
+
+                <div class="catalog__cards-pagination">
+                    <span class="pagination-option" v-for="(pag, id) in $tm('main.catalog.cards')" :key="id"
+                    :class="{'active': prdActivePages[id].active}" @click="showHideCatalog(id)">
+                        {{ id + 1 }}
+                    </span>
                 </div>
             </div>
         </div>
@@ -31,10 +41,25 @@ export default {
             },
             ctStore: catalogStore(),
             windowSize: window.innerWidth,
+            prdActivePages: []
         }
     },
     mounted() {
         window.addEventListener('resize', () => this.windowSize = window.innerWidth)
+    },
+    created() {
+        const arr = [...this.$tm('main.catalog.cards')]
+        arr.forEach((element, idx) => {
+            const obj = {active: false}
+            idx == 0 ? obj.active = true : ''
+            this.prdActivePages.push(obj)
+        });
+    },
+    methods: {
+        showHideCatalog(idx) {
+            this.prdActivePages.map(item => item.active = false)
+            this.prdActivePages[idx].active = true
+        }
     }
 }
 
@@ -59,13 +84,50 @@ export default {
         text-transform: capitalize;
     }
 
-    .catalog__cards {
-        max-width: 1020px;
+    .catalog__cards-box {
+        width: 100%;
+        gap: 24px;
+
+        .catalog__cards {
+            max-width: 1020px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+        }
+    }
+
+    .catalog__cards-pagination {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
+        align-items: center;
         justify-content: center;
+        gap: 15px;
+
+        .pagination-option {
+            color: var(--primary-color);
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            padding: 5px 10px;
+            background: var(--main-blue);
+            border-radius: 10px;
+            border: solid 2px transparent;
+            user-select: none;
+
+            &:hover {
+                color: var(--main-blue);
+                background: transparent;
+                border-color: var(--main-blue);
+            }
+
+            &.active {
+                color: var(--main-blue);
+                background: transparent;
+                border-color: var(--main-blue);
+            }
+        }
     }
 
     .bg-img {

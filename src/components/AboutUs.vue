@@ -32,7 +32,7 @@ export default {
                 big: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-bg.png?alt=media&token=e4d9ff9e-4699-4088-9248-abda32912727',
                 mb: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fmb-about-bg.png?alt=media&token=5c8ae86b-547a-4942-acd7-77271b7ee568'
             },
-            contentImg: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-us-img.png?alt=media&token=614a94ae-c06d-4efd-b033-7a53259c200b",
+            contentImg: "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FAboutUs%2Fabout-img.png?alt=media&token=f58f59a9-b05d-497e-ae20-87c8e24ebff5",
             windowSize: window.innerWidth,
         }
     },

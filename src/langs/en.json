@@ -63,123 +63,244 @@
         "catalog": {
             "title": "catalog",
             "cards": [
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89",
-                    "name": "summer dress",
-                    "txt": "Size - from 2 to 5-6 years old, Season - summer, Fabric - cotton,air permeable",
-                    "descr": {
-                        "size": { "type": "size", "txt": "from 2 to 5-6 years old"},
-                        "season": { "type": "season", "txt": "summer"},
-                        "fabric": { "type": "fabric", "txt": "cotton, air permeable"}
+                [   
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89",
+                        "name": "summer dress",
+                        "txt": "Size - from 2 to 5-6 years old, Season - summer, Fabric - cotton,air permeable",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 2 to 5-6 years old"},
+                            "season": { "type": "season", "txt": "summer"},
+                            "fabric": { "type": "fabric", "txt": "cotton, air permeable"}
+                        },
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-021.jpg?alt=media&token=bccc7328-9367-4835-9f21-dbb71b718ab0" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-022.jpg?alt=media&token=b23bde2d-f53a-4f9f-88e9-b15b12b9f223" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-020.jpg?alt=media&token=5a211e26-64fd-4afa-bac4-a8b7c7f46c89" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2",
+                        "name": "summer chiffon dress",
+                        "txt": "Size - from 2 to 5-6 years old, Season - summer, Fabric - The skirt part, the fabric ofwhich is sewn chiffon lining, isdecorated with a 3-storey, has abelt at the waist",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 2 to 5-6 years old"},
+                            "season": { "type": "season", "txt": "summer"},
+                            "fabric": { "type": "fabric", "txt": "the skirt part, the fabric ofwhich is sewn chiffon lining, isdecorated with a 3-storey, has abelt at the waist" }
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-021.jpg?alt=media&token=bccc7328-9367-4835-9f21-dbb71b718ab0" 
-                        },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-1%2Fimage-022.jpg?alt=media&token=b23bde2d-f53a-4f9f-88e9-b15b12b9f223" 
-                        }
-                    ]
-                },
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2",
-                    "name": "summer chiffon dress",
-                    "txt": "Size - from 2 to 5-6 years old, Season - summer, Fabric - The skirt part, the fabric ofwhich is sewn chiffon lining, isdecorated with a 3-storey, has abelt at the waist",
-                    "descr": {
-                        "size": { "type": "size", "txt": "from 2 to 5-6 years old"},
-                        "season": { "type": "season", "txt": "summer"},
-                        "fabric": { "type": "fabric", "txt": "the skirt part, the fabric ofwhich is sewn chiffon lining, isdecorated with a 3-storey, has abelt at the waist" }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-024.jpg?alt=media&token=2c0df103-eaa6-4bcf-9ab4-d613dbd7fee7" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-025.jpg?alt=media&token=8498f081-e13d-453b-acd3-6b872c81ccd8" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-023.jpg?alt=media&token=57bab294-2b0a-41f6-ab62-c61a09d2b0d2" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281",
+                        "name": "autumn dress",
+                        "txt": "Size - 2 years - six years old girls, Season - for Autumn, Fabric - mikrovilivet, on the back has azipper",
+                        "descr": {
+                            "size": { "type": "size", "txt": "2 years - six years old girls"},
+                            "season": { "type": "season", "txt": "for Autumn"},
+                            "fabric": { "type": "fabric", "txt": "mikrovilivet, on the back has azipper" }
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-024.jpg?alt=media&token=2c0df103-eaa6-4bcf-9ab4-d613dbd7fee7" 
-                        },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-2%2Fimage-025.jpg?alt=media&token=8498f081-e13d-453b-acd3-6b872c81ccd8" 
-                        }
-                    ]
-                },
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281",
-                    "name": "autumn dress",
-                    "txt": "Size - 2 years - six years old girls, Season - for Autumn, Fabric - mikrovilivet, on the back has azipper",
-                    "descr": {
-                        "size": { "type": "size", "txt": "2 years - six years old girls"},
-                        "season": { "type": "season", "txt": "for Autumn"},
-                        "fabric": { "type": "fabric", "txt": "mikrovilivet, on the back has azipper" }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-011.jpg?alt=media&token=d32ac92b-1f26-443f-92aa-13b60c5ac325" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-018.jpg?alt=media&token=bd43c8c8-0595-4e6d-a709-dc7fb1d8fcf6" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-030.jpg?alt=media&token=034f7f32-8bdf-4ead-a6bc-9bd9649fc281" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416",
+                        "name": "autumn dress",
+                        "txt": "Size - from 2 to 5 years old, Season - for Autumn, Fabric - (polestir) the collar part,which was attached to the sleeve endkurjiva, was attached to kurjiva fordecoration, which used bingalin fabricon the back there is a zamogi and beltthat transfers comfortable air to wear",
+                        "descr": {
+                            "size":{ "type": "size", "txt": "from 2 to 5 years old" },
+                            "season": { "type": "season", "txt": "for Autumn"},
+                            "fabric": { "type": "fabric", "txt": "(polestir) the collar part,which was attached to the sleeve endkurjiva, was attached to kurjiva fordecoration, which used bingalin fabricon the back there is a zamogi and beltthat transfers comfortable air to wear" }
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-011.jpg?alt=media&token=d32ac92b-1f26-443f-92aa-13b60c5ac325" 
-                        },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-3%2Fimage-018.jpg?alt=media&token=bd43c8c8-0595-4e6d-a709-dc7fb1d8fcf6" 
-                        }
-                    ]
-                },
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416",
-                    "name": "autumn dress",
-                    "txt": "Size - from 2 to 5 years old, Season - for Autumn, Fabric - (polestir) the collar part,which was attached to the sleeve endkurjiva, was attached to kurjiva fordecoration, which used bingalin fabricon the back there is a zamogi and beltthat transfers comfortable air to wear",
-                    "descr": {
-                        "size":{ "type": "size", "txt": "from 2 to 5 years old" },
-                        "season": { "type": "season", "txt": "for Autumn"},
-                        "fabric": { "type": "fabric", "txt": "(polestir) the collar part,which was attached to the sleeve endkurjiva, was attached to kurjiva fordecoration, which used bingalin fabricon the back there is a zamogi and beltthat transfers comfortable air to wear" }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-032.jpg?alt=media&token=f2642672-24c2-4ed1-9f88-e790d044f73f" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-031.jpg?alt=media&token=124e5307-3b36-4ad4-b09e-506f511ef416" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39",
+                        "name": "triple, double",
+                        "txt": "Size - 6-9 months 9-12 months 12-18 months, Season - Autumn, Spring, Fabric - there is a zipper on the front part There isa logo on the front of the T-shirt 4 different colorsthere are 2 different images",
+                        "descr": {
+                            "size":{ "type": "size", "txt": "6-9 months 9-12 months 12-18 months" },
+                            "season": { "type": "season", "txt": "autumn, Spring"},
+                            "fabric": { "type": "fabric", "txt": "there is a zipper on the front part There isa logo on the front of the T-shirt 4 different colorsthere are 2 different images" }
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-4%2Fimage-032.jpg?alt=media&token=f2642672-24c2-4ed1-9f88-e790d044f73f" 
-                        }
-                    ]
-                },
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39",
-                    "name": "triple, double",
-                    "txt": "Size - 6-9 months 9-12 months 12-18 months, Season - Autumn, Spring, Fabric - there is a zipper on the front part There isa logo on the front of the T-shirt 4 different colorsthere are 2 different images",
-                    "descr": {
-                        "size":{ "type": "size", "txt": "6-9 months 9-12 months 12-18 months" },
-                        "season": { "type": "season", "txt": "autumn, Spring"},
-                        "fabric": { "type": "fabric", "txt": "there is a zipper on the front part There isa logo on the front of the T-shirt 4 different colorsthere are 2 different images" }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-017.jpg?alt=media&token=c232395c-42d1-4a94-a9a3-3b02e9174c3f" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-015.jpg?alt=media&token=d0b9e0ef-e507-47a2-b1dd-272d2bfb9e39" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d",
+                        "name": "girls double dress",
+                        "txt": "Size - 9 to 12 years old, Season - Autumn, Spring, Fabric - knitwear the upper part has a closed chontwith a hem part and a pechat printed on the sleeveend for the decoration on which the ribana isattached at the bottom , on the wrist, the ribana iscomfortable to wear, which has ruffled chestnuts",
+                        "descr": {
+                            "size": { "type": "size", "txt": "9 to 12 years old" },
+                            "season": { "type": "season", "txt": "autumn, Spring"},
+                            "fabric": { "type": "fabric", "txt": "knitwear the upper part has a closed chontwith a hem part and a pechat printed on the sleeveend for the decoration on which the ribana isattached at the bottom , on the wrist, the ribana iscomfortable to wear, which has ruffled chestnuts" }
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-5%2Fimage-017.jpg?alt=media&token=c232395c-42d1-4a94-a9a3-3b02e9174c3f" 
-                        }
-                    ]
-                },
-                {
-                    "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d",
-                    "name": "girls double dress",
-                    "txt": "Size - 9 to 12 years old, Season - Autumn, Spring, Fabric - knitwear the upper part has a closed chontwith a hem part and a pechat printed on the sleeveend for the decoration on which the ribana isattached at the bottom , on the wrist, the ribana iscomfortable to wear, which has ruffled chestnuts",
-                    "descr": {
-                        "size": { "type": "size", "txt": "9 to 12 years old" },
-                        "season": { "type": "season", "txt": "autumn, Spring"},
-                        "fabric": { "type": "fabric", "txt": "knitwear the upper part has a closed chontwith a hem part and a pechat printed on the sleeveend for the decoration on which the ribana isattached at the bottom , on the wrist, the ribana iscomfortable to wear, which has ruffled chestnuts" }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-003.jpg?alt=media&token=6b1ea2c6-1422-462b-aba2-6e8baa50b3c1" 
+                            }
+                        ]
+                    }
+                ],
+                [   
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-2.jpg?alt=media&token=e3f2c8d9-97ca-47c3-9ca1-731f0d6c3dbc",
+                        "name": "autumn-winter dress",
+                        "txt": "Size - from 9 to 12 years old, Season - autumn-winter, Fabric - cashmere (fleece)",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 9 to 12 years old"},
+                            "season": { "type": "season", "txt": "autumn-winter"},
+                            "fabric": { "type": "fabric", "txt": "cashmere (fleece)"}
+                        },
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-2.jpg?alt=media&token=e3f2c8d9-97ca-47c3-9ca1-731f0d6c3dbc" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-6.jpg?alt=media&token=af4a5c40-56b5-4c84-ba19-5c85d9416291" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-7.jpg?alt=media&token=7cc72a8b-d036-4283-9cea-ba6c0879641c" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-8.jpg?alt=media&token=280835e8-a9be-4c56-8e03-fe9baebb7c94" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-7%2Fcard-7-9.jpg?alt=media&token=b2bb194d-1bd8-48a5-9f79-190046f51393" 
+                            }
+                        ]
                     },
-                    "images": [
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-006.jpg?alt=media&token=65983ead-dcf6-4201-9563-e6e9d77fe12d" 
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-main.jpg?alt=media&token=e9b9c690-419c-4097-a68f-e272c1c7a7e6",
+                        "name": "winter-autumn clothes for girls",
+                        "txt": "Size - from 9 to 12 years old, Season - autumn-winter, Fabric - the fabric is a breathable soft fabric. There is a lock on the front. There are cuffs along the bottom and sleeves. The trousers have two side pockets. Comfortable to wear, breathable",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 9 to 12 years old"},
+                            "season": { "type": "season", "txt": "autumn-winter"},
+                            "fabric": { "type": "fabric", "txt": "the fabric is a breathable soft fabric. There is a lock on the front. There are cuffs along the bottom and sleeves. The trousers have two side pockets. Comfortable to wear, breathable"}
                         },
-                        {
-                            "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-6%2Fimage-003.jpg?alt=media&token=6b1ea2c6-1422-462b-aba2-6e8baa50b3c1" 
-                        }
-                    ]
-                }
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-main.jpg?alt=media&token=e9b9c690-419c-4097-a68f-e272c1c7a7e6" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-2.jpg?alt=media&token=bbdf4164-52e1-46b4-9564-752aee061414" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-3.jpg?alt=media&token=7d799a56-5ae1-4349-86b2-5ed8669ba19d" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-4.jpg?alt=media&token=8f4ef7f4-c750-4374-80b1-ba2ce9ccf7a3" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-5.jpg?alt=media&token=c4d69f9e-6f32-43c0-bb0e-d90176cb13d2" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-6.jpg?alt=media&token=f241e4c2-829b-4379-9c9e-4963cd003c0d" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-7.jpg?alt=media&token=c9d4112e-055e-472a-ba69-8de66df02b4f" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-8.jpg?alt=media&token=68dc46c7-f735-40aa-82d0-09ed7dc5ac4b" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-8%2Fcard-8-9.jpg?alt=media&token=b08b1d49-0a0f-46f0-bfc8-6f148a804e6e" 
+                            }
+                        ]
+                    },
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-9%2Fcard-9-main.jpg?alt=media&token=1eaac870-cbe6-4ba6-9737-315a92d0a4c8",
+                        "name": "autumn dress",
+                        "txt": "Size - from 2 to 5 years old, Season - autumn, Fabric - fluffy waffle fabric.",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 2 to 5 years old"},
+                            "season": { "type": "season", "txt": "autumn"},
+                            "fabric": { "type": "fabric", "txt": "fluffy waffle fabric."}
+                        },
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-9%2Fcard-9-main.jpg?alt=media&token=1eaac870-cbe6-4ba6-9737-315a92d0a4c8" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-9%2Fcard-9-2.jpg?alt=media&token=0bedfe38-ca28-49df-b55a-bb09cfcabe61" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-9%2Fcard-9-3.jpg?alt=media&token=aa7e87fd-d077-49f5-bccb-d63854d9e4ab" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-9%2Fcard-9-4.jpg?alt=media&token=724e1124-9521-47de-84c0-8a6353131ddc" 
+                            }
+                        ]
+                    },
+                    {
+                        "mainImg": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-main.jpg?alt=media&token=e8d17ced-58fc-4bc4-a865-0233eef53a7f",
+                        "name": "winter-autumn clothes for boys and girls",
+                        "txt": "Size - from 9 to 12 years old, Season - autumn-winter, Fabric - cashmere (fleece)",
+                        "descr": {
+                            "size": { "type": "size", "txt": "from 9 to 12 years old"},
+                            "season": { "type": "season", "txt": "autumn-winter"},
+                            "fabric": { "type": "fabric", "txt": "cashmere (fleece)"}
+                        },
+                        "images": [
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-main.jpg?alt=media&token=e8d17ced-58fc-4bc4-a865-0233eef53a7f" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-2.jpg?alt=media&token=58e5c5a5-dec6-494f-b8bf-7df54414257e" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-3.jpg?alt=media&token=5fc7e868-37cb-43ac-b40c-f9e65a031a07" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-4.jpg?alt=media&token=f5407ebc-29a8-44bd-b333-0ed687b2ff57" 
+                            },
+                            {
+                                "img": "https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/Main%2FCatalogSection%2Fcards%2Fcard-10%2Fcard-10-5.jpg?alt=media&token=a1d4c07a-adf1-44e3-8176-c25e10611ef3" 
+                            }
+                        ]
+                    }
+                ]
             ],
             "btnValue": "order"
         },

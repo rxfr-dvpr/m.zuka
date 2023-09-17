@@ -1,6 +1,6 @@
 <template>
     <div class="swiper-slider-box">
-        <swiper :navigation="{prevEl:'.swiper-btn.prev', nextEl:'.swiper-btn.next'}" :spaceBetween="35" :centeredSlides="true" :modules="modules" class="header-swiper">
+        <swiper :navigation="{prevEl:'.swiper-btn.prev', nextEl:'.swiper-btn.next'}" :spaceBetween="35" :modules="modules" class="header-swiper">
             <swiper-slide class="header-swiper-slide" v-for="(img, idx) in sliderImages" :key="idx">
                 <img :src="windowSize > 768 ? img.img : img.mbImg" alt="" class="swiper-img">
                 <a :href="$t('header.sliderBtn.url')" v-if="windowSize > 768" class="contact-btn blue-btn">{{ $t('header.sliderBtn.name') }}</a>
@@ -142,7 +142,7 @@ export default {
 @media (max-width: 768px) {
     .header-swiper {
         &-slide {
-            max-width: 400px !important;
+            max-width: 100% !important;
         }
     }
 }
