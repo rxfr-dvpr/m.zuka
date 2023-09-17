@@ -5,7 +5,7 @@
 
             <div class="contact__info">
                 <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7745.026323320958!2d69.01174038547474!3d40.910982726148994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae75ac5fbd77ab%3A0x4a1e178f88f8ad36!2z0JrRg9C50LjRh9C40YDRh9C40LrRgdC60LjQuSDRgNCw0LnQvtC9LCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e1!3m2!1sru!2s!4v1694810179282!5m2!1sru!2s" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" class="ifr-map"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d6030.43035101819!2d69.00901683263326!3d40.91102768869992!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDU0JzQzLjYiTiA2OcKwMDAnNDMuMyJF!5e0!3m2!1sru!2s!4v1694945339176!5m2!1sru!2s"  height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" class="ifr-map"></iframe>
                 </div>
 
                 <div class="contact-links">
