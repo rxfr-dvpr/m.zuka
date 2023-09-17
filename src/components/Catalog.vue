@@ -59,6 +59,7 @@ export default {
         showHideCatalog(idx) {
             this.prdActivePages.map(item => item.active = false)
             this.prdActivePages[idx].active = true
+            window.scrollTo(0, 1200)
         }
     }
 }
