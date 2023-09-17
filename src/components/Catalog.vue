@@ -88,6 +88,9 @@ export default {
     .catalog__cards-box {
         width: 100%;
         gap: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         .catalog__cards {
             max-width: 1020px;
