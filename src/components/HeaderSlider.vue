@@ -43,7 +43,7 @@ export default {
                     mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-3.png?alt=media&token=6e34c8f0-5a7a-4022-8341-29a48b3e1027'
                 },
                 {
-                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%204.png?alt=media&token=93aae127-0670-49ca-af96-4e103cc588dd',
+                    img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2FArtboard%204.png?alt=media&token=018287cb-d316-470b-a47f-18935e281cd5',
                     mbImg: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/HeaderSlider%2Fmb-img-4.png?alt=media&token=34196e06-f109-41a0-a336-cf3f1d4ac2f4'
                 }
             ],
